@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./image/facebook.png">
+    <title>Facebook</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section class="hero">
+        <div class="hero__title">
+            <h1>facebook</h1>
+            <br>
+            <p>Facebook helps you connect and share <br> with the people in your life.</p>
+        </div>
+        <div class="card">
+            <input class="card__input" type="text" placeholder="Email or phone number">
+            <br><br>
+            <input class="card__input" type="password" placeholder="Password">
+            <br><br>
+            <button class="card__btn">Log In</button>
+            <br><br>
+            <div class="card__a">
+                <a href="#">Forgot password?</a>
+            </div>
+            <br>
+            <hr>
+            <br>
+            <button onclick="toggleShow ()" class="btn">Create new account</button>
+        </div>
+    </section>
+
+    <main class="main">
+        <div class="main__box">
+            <div class="main__content">
+               <div class="main__inher">
+                   <p class="main__p">Sign Up</p>
+                   <p class="main__text">It's quick and easy</p>
+               </div>
+                <div class="main__x">
+                    <i  onclick=" toggleShow ()"  class="fa-solid fa-xmark"></i>
+                </div>
+               </div>
+            <hr>
+            <form class="form" action="">
+                <div class="main__name">
+                    <input style="margin-top: 10px;" class="input" placeholder="Frist Name" type="text">
+                    <input style="margin-top: 10px; margin-left: -10px;" class="input" placeholder="Last Name" type="text">
+                </div>
+                <input class="main__btr" required placeholder="Mobeli Number or email" type="text">
+                <input class="main__btr input" required placeholder="New password" type="password">
+                <div class="main__theme">
+                    <label class="for" for=" ">Bithday?</label>
+                    <div class="main__travel">
+                        <select class="travel" name="travel" id="travel">
+                            <option value="travel">Yanvar</option>
+                            <option value="travel">Fevral</option>
+                            <option value="travel">Mart</option>
+                            <option value="travel">Aprel</option>
+                            <option value="travel">May</option>
+                            <option value="travel">Iyun</option>
+                            <option value="travel">Iyul</option>
+                            <option value="travel">Avgust</option>
+                            <option value="travel">Sentyabr</option>
+                            <option value="travel">Oktyabr</option>
+                            <option value="travel">Noyabr</option>
+                            <option value="travel">Dekabr</option>
+                        </select>
+                        <select class="travel" name="travel" id="travel">
+                            <option value="travel">1</option>
+                            <option value="travel">2</option>
+                            <option value="travel">3</option>
+                            <option value="travel">4</option>
+                            <option value="travel">5</option>
+                            <option value="travel">6</option>
+                            <option value="travel">7</option>
+                            <option value="travel">8</option>
+                            <option value="travel">9</option>
+                            <option value="travel">10</option>
+                            <option value="travel">11</option>
+                            <option value="travel">12</option>
+                            <option value="travel">13</option>
+                            <option value="travel">14</option>
+                            <option value="travel">15</option>
+                            <option value="travel">16</option>
+                            <option value="travel">17</option>
+                            <option value="travel">18</option>
+                            <option value="travel">19</option>
+                            <option value="travel">20</option>
+                            <option value="travel">21</option>
+                            <option value="travel">22</option>
+                            <option value="travel">23</option>
+                            <option value="travel">24</option>
+                            <option value="travel">25</option>
+                            <option value="travel">26</option>
+                            <option value="travel">27</option>
+                            <option value="travel">28</option>
+                            <option value="travel">29</option>
+                            <option value="travel">30</option>
+                            <option value="travel">31</option>
+                        </select>
+                        <select class="travel" name="travel" id="travel">
+                            <option value="travel">1999</option>
+                            <option value="travel">2000</option>
+                            <option value="travel">2001</option>
+                            <option value="travel">2002</option>
+                            <option value="travel">2003</option>
+                            <option value="travel">2004</option>
+                            <option value="travel">2005</option>
+                            <option value="travel">2006</option>
+                            <option value="travel">2007</option>
+                            <option value="travel">2008</option>
+                            <option value="travel">2009</option>
+                            <option value="travel">2010</option>
+                            <option value="travel">2011</option>
+                            <option value="travel">2012</option>
+                            <option value="travel">2013</option>
+                            <option value="travel">2014</option>
+                            <option value="travel">2015</option>
+                            <option value="travel">2016</option>
+                            <option value="travel">2017</option>
+                            <option value="travel">2018</option>
+                            <option value="travel">2019</option>
+                            <option value="travel">2020</option>
+                            <option value="travel">2021</option>
+                            <option value="travel">2022</option>
+                            <option value="travel">2023</option>
+                            <option value="travel">2024</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="main__theme">
+                    <label class="for" for="">Gender ?</label>
+                    <div class="main__ismerid">
+                        <div class="main__male">
+                            <label for="">Female</label>
+                            <input type="radio" name="" id="">
+                        </div>
+                        <div class="main__male">
+                            <label for="">Male</label>
+                            <input type="radio" name="" id="">
+                        </div>
+                    </div>
+                </div>
+              <p class="word">People who use our service may have uploaded your contact information to Facebook.<a style="text-decoration: inherit;" href="#">Learn more.</a></p>
+              <p class="word">By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy. You may receive SMS Notifications from us and can opt out any time.</p>
+              <button class="main__up">Sin Up</button>
+            </form>
+            </div>
+       </main>
+
+       <script src="./js/main.js"></script>
+</body>
+</html>
